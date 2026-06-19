@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ShopNest Login</title>
+
+<link rel="stylesheet" href="css/auth.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="auth-container">
+
+<div class="glass-card">
+
+<h1>SHOPNEST</h1>
+
+<p class="subtitle">
+Luxury Marketplace Access
+</p>
+
+<input
+type="text"
+id="userInput"
+placeholder="Email or Mobile Number"
+>
+
+<button onclick="sendOTP()">
+Send OTP
+</button>
+
+<div id="otpBox">
+
+<input
+type="text"
+id="otpInput"
+placeholder="Enter OTP"
+>
+
+<button onclick="verifyOTP()">
+Verify OTP
+</button>
+
+</div>
+
+<p id="otpMessage"></p>
+
+</div>
+
+</div>
+
+<script src="js/auth.js"></script>
+
+</body>
+
+</html>

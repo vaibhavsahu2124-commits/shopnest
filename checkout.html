@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checkout</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<section class="checkout-page">
+
+<h1>Checkout</h1>
+
+<div class="checkout-form">
+
+<input type="text" id="fullName" placeholder="Full Name">
+
+<input type="text" id="phone" placeholder="Phone Number">
+
+<input type="text" id="city" placeholder="City">
+
+<input type="text" id="state" placeholder="State">
+
+<input type="text" id="pincode" placeholder="Pincode">
+
+<textarea id="address" placeholder="Full Address"></textarea>
+
+<select id="paymentMethod">
+
+<option value="COD">
+Cash On Delivery
+</option>
+
+<option value="UPI">
+UPI
+</option>
+
+<option value="CARD">
+Card Payment
+</option>
+
+</select>
+
+<button onclick="placeOrder()">
+Place Order
+</button>
+
+</div>
+
+</section>
+
+<script src="js/checkout.js"></script>
+
+</body>
+</html>
